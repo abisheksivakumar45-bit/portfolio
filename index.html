@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity professional portfolio — threat analysis, and Aspiring SOC Analyst.">
+  <title>ABISHEK S| Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>ABISHEK<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <div class="hero-badge fade-in">
+          <span class="status-dot"></span>
+          Available for opportunities
+        </div>
+        <p class="hero-greeting fade-in">Hello, I'm</p>
+        <h1 class="hero-title fade-in">
+          <span class="hero-name">ABISHEK S</span>
+        </h1>
+        <p class="hero-role fade-in">
+          <span class="typing-text" id="typingText"></span>
+          <span class="cursor-blink">|</span>
+        </p>
+        <p class="hero-description fade-in">
+          <h1>ABISHEK S</h1>
+
+          <h2>Aspiring SOC Analyst</h2>
+
+          <p>
+            Cybersecurity student passionate about blue teaming,
+            network security, Linux, and web application security.
+            Currently learning through PortSwigger Labs, TryHackMe,
+            and hands-on cybersecurity projects.
+          </p>
+        </p>
+        <div class="hero-actions fade-in">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats fade-in">
+          <div class="stat">
+            <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Github projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">portswigger labs</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">cybersecurity certifications</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <img src="images/profile 2.jpeg" alt="Abishek S">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// About Me</span>
+          <h2 class="section-title">Securing the Digital Frontier</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="about-image-frame">
+              <div class="about-avatar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M9 12l2 2 4-4"/>
+                </svg>
+              </div>
+              <div class="about-image-glow"></div>
+            </div>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-lead">
+              I'm a passionate cybersecurity professional with a deep commitment to protecting
+              organizations from evolving threats in an increasingly connected world.
+            </p>
+            <p>
+              With expertise spanning offensive security, incident response, and security architecture,
+              I help teams identify vulnerabilities before adversaries do and build defenses that scale.
+            </p>
+            <p>
+              My approach combines rigorous technical analysis with clear communication — translating
+              complex security findings into actionable remediation strategies for both technical
+              and executive stakeholders.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <span class="highlight-icon">🎯</span>
+                <div>
+                  <strong>defensive Security</strong>
+                  <span>SOC Analyst & blue teaming</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <span class="highlight-icon">🛡️</span>
+                <div>
+                  <strong>Defensive Operations</strong>
+                  <span>SOC</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <span class="highlight-icon">🔐</span>
+                <div>
+                  <strong>Security Architecture</strong>
+                  <span>Zero trust & cloud security</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// Expertise</span>
+          <h2 class="section-title">Technical Arsenal</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <span class="skill-icon">⚔️</span>
+              <h3>Defensive Security</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">kali linux</span>
+              <span class="skill-tag">Networking</span>
+              <span class="skill-tag">Portswigger</span>
+              <span class="skill-tag">Git & GitHub</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="92"></div>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <span class="skill-icon">⚔️</span>
+              <h3>Offensive Security</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">kali linux (basic)</span>
+              <span class="skill-tag">Burp Suite (basic)</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="92"></div>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <span class="skill-icon">💻</span>
+              <h3>Programming & Scripting</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="certifications reveal">
+          <h3 class="certifications-title">Certifications</h3>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <span class="cert-badge">CISCO</span>
+              <span class="cert-name">Introduction to Cybersecurity</span>
+              <p>Cisco Networking Academy</p>
+
+    <a href="YOUR_CISCO_CERTIFICATE_LINK"
+       target="_blank"
+       class="cert-link">
+       View Certificate →
+    </a>
+            </div>
+            <div class="cert-card">
+              <span class="cert-badge">Infosys</span>
+              <span class="cert-name">Shell scripting</span>
+              <p>Infosys</p>
+              <a href="https://github.com/abisheksivakumar45-bit/Certifications/blob/main/infosys/Shell%20scripting-infosys%20spring%20board.pdf"
+       target="_blank"
+       class="cert-link">
+       View Certificate →
+    </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <div class="project-icon">🔓</div>
+              <div class="project-overlay">
+                <a href="https://github.com/abisheksivakumar45-bit/Todo-list.git" class="project-link" aria-label="View project details">View Details →</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Automation</span>
+              </div>
+              <h3 class="project-title">To-do list</h3>
+              <p class="project-description">
+                A responsive task management application built with HTML, CSS, and JavaScript. 
+                Features task creation, completion tracking, deletion, and local storage to keep tasks saved across browser sessions.
+              </p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <div class="project-icon">🕵️</div>
+              <div class="project-overlay">
+                <a href="https://github.com/abisheksivakumar45-bit/Password-strength-checker.git" class="project-link" aria-label="View project details">View Details →</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>OSINT</span>
+                <span>Threat Intel</span>
+              </div>
+              <h3 class="project-title">password strength analyzer</h3>
+              <p class="project-description">
+                An interactive web application that evaluates password strength in real time using length, uppercase, 
+                lowercase, numbers, and special character validation to encourage secure password practices.
+              </p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <div class="project-icon">🏰</div>
+              <div class="project-overlay">
+                <a href="#" class="project-link" aria-label="View project details">View Details →</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Cloud</span>
+                <span>DevSecOps</span>
+              </div>
+              <h3 class="project-title">Cybersecurity portfolio</h3>
+              <p class="project-description">
+               A modern personal portfolio website showcasing my cybersecurity learning journey, technical skills,
+                projects, certifications, and contact information with a responsive and professional design.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// Career</span>
+          <h2 class="section-title">Learning Journey</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026-present</span>
+              <h3 class="timeline-title">Hackathon Participant</h3>
+              <span class="timeline-company">Sasurie college of engineering</span>
+              <p>
+                Completed a cybersecurity internship, gaining practical exposure
+                to security concepts, vulnerability assessment, documentation,
+                and teamwork.Developed cybersecurity and AI-based projects in competitive
+                hackathons, collaborating with teammates to solve real-world
+                security challenges.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026</span>
+              <h3 class="timeline-title">Hands-on Cybersecurity learning in TryHackMe & PortSwigger</h3>
+              <span class="timeline-company">Sasurie college of engineering</span>
+              <p>
+                Learning web application security, HTTP, kali Linux, networking, burp suit basics and
+                security fundamentals through practical labs and vulnerability
+                analysis exercises.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025-2026</span>
+              <h3 class="timeline-title">B.E Cybersecurity student</h3>
+              <span class="timeline-company">Sasurie college of engineering</span>
+              <p>
+                 Studying cybersecurity with a focus on SOC operations, digital electronics,
+                 web security. Building practical skills through
+                 hands-on labs and real-world projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// Contact</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            Interested in collaboration or have a security challenge? Reach out.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a href="mailto:akashabishek38@gmail.com" class="contact-card">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <span>akashabishek38@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/abishek-s-048840390" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <span class="contact-icon">💼</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>/in/Abishek S</span>
+              </div>
+            </a>
+            <a href="https://github.com/abisheksivakumar45-bit" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <span class="contact-icon">🐙</span>
+              <div>
+                <strong>GitHub</strong>
+                <span>@abisheksivakumar45-bit</span>
+              </div>
+            </a>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 ABISHEK. Built with security in mind.</p>
+      <div class="footer-links">
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
