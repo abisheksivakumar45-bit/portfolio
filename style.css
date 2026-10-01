@@ -719,6 +719,53 @@ img {
   color: var(--text-muted);
 }
 
+.cert-badge-image {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  padding: 6px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.cert-name--title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cert-issuer {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.cert-date {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  padding: 3px 10px;
+  background: rgba(0, 255, 170, 0.08);
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition);
+}
+
+.cert-link:hover {
+  background: rgba(0, 255, 170, 0.15);
+}
+
 /* ============================================
    Projects Section
    ============================================ */
